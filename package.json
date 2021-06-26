@@ -1,0 +1,26 @@
+{
+  "name": "restful-api-express-mongo",
+  "version": "1.0.0",
+  "description": "Latihan membuat Restful API menggunakan ExpressJS dan MongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Resful_API"
+  ],
+  "author": "Andry Pebrianto",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
